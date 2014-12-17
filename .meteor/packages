@@ -38,7 +38,7 @@ spiderable
 accounts-facebook
 accounts-google
 accounts-twitter
-bootstrap
 accounts-ui
 
 recline-dashboard
+nemo64:bootstrap
