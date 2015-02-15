@@ -15,6 +15,9 @@ Router.map ->
   @route "tmplAnalysis",
     path: "/analysis"
     layoutTemplate: "analysisPageLayout"
+  @route "tmplAPI",
+    path: "/api"
+    layoutTemplate: "analysisPageLayout"
   @route "dashboard",
     path: "/dashboard"
     waitOn: ->
