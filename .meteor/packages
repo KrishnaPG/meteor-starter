@@ -14,7 +14,6 @@ aldeed:collection2
 aldeed:simple-schema
 aldeed:template-extension@3.1.1
 joshowens:accounts-entry
-chrismbeckett:fontawesome4
 raix:handlebar-helpers
 cfs:standard-packages
 cfs:gridfs
