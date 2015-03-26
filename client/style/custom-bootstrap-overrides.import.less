@@ -1,0 +1,60 @@
+﻿/*
+    This overrides the custom-bootstrap.import.less variables for customization.
+    The problem is: custom-bootstrap.import.less gets generated on first use and may be deleted.
+    To persist the customizations we need to have the overrides in an external special file, which is this.
+*/
+
+@brand-primary:         #008cba;//428bca;
+@brand-success:         #43ac6a;//5cb85c;
+
+@font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@headings-font-family:    @font-family-base;
+@headings-font-weight:    300;
+
+@btn-default-color: @gray-dark;
+@btn-default-bg: #e7e7e7;
+
+//** Placeholder text color
+@input-color-placeholder: @gray-light;
+
+//** Divider color for between dropdown items.
+@dropdown-divider-bg: rgba(0,0,0,.2);
+
+@dropdown-link-color: #555;
+@dropdown-link-hover-bg: #eee;
+
+@zindex-modal-background:  1040;
+@zindex-modal: 1050;
+
+@navbar-border-radius: 0px;
+@navbar-default-color: #fff;
+@navbar-default-bg: @gray-dark;
+
+@navbar-default-link-hover-color:          #fff;
+@navbar-default-link-hover-bg:             #272727;
+@navbar-default-link-active-color:         #fff;
+@navbar-default-link-active-bg:            #272727;
+
+@navbar-default-brand-hover-color:         @navbar-default-brand-color;
+
+@navbar-default-toggle-hover-bg:           transparent;
+@navbar-default-toggle-icon-bar-bg:        #fff;
+@navbar-default-toggle-border-color:       transparent;
+
+@navbar-inverse-color:                      #fff;
+@navbar-inverse-bg:                         @brand-primary;
+@navbar-inverse-border:                     darken(@navbar-inverse-bg, 6.5%);
+
+@navbar-inverse-link-color:                 #fff;
+@navbar-inverse-link-hover-bg:              darken(@navbar-inverse-bg, 5%);
+@navbar-inverse-link-active-color:          #fff;
+@navbar-inverse-link-active-bg:             darken(@navbar-inverse-bg, 5%);
+
+@navbar-inverse-toggle-hover-bg:            transparent;
+@navbar-inverse-toggle-border-color:        transparent;
+
+@nav-open-link-hover-color:                 #fff;
+
+@jumbotron-bg:                   #fafafa;
+
