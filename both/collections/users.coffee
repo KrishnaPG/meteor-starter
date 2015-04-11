@@ -251,29 +251,6 @@ Schemas.UserProfile = new SimpleSchema(
     optional: true
 )
 
-Schemas.userHistory = new SimpleSchema(
-  esLastVisited:
-    type: [Object]
-    optional: true
-  'esLastVisited.$.host':
-    type: String
-    # regEx: SimpleSchema.RegEx.Url
-  'esLastVisited.$.index': 
-    type: String
-    optional: true
-  'esLastVisited.$.type':
-    type: String
-    optional: true
-  'esLastVisited.$.date':
-    type: Date
-    optional: true
-)
-
-Schemas.UserSettings = new SimpleSchema(
-    history:
-      type: Schemas.userHistory
-      optional: true
-)
 
 Schemas.User = new SimpleSchema(
 
@@ -299,10 +276,6 @@ Schemas.User = new SimpleSchema(
 
   profile:
     type: Schemas.UserProfile
-    optional: true
-
-  settings:
-    type: Schemas.UserSettings
     optional: true
 
   services:

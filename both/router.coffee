@@ -15,6 +15,10 @@ Router.map ->
   @route "tmplAnalysis",
     path: "/analysis"
     layoutTemplate: "analysisPageLayout"
+    waitOn: ->
+      [
+        Meteor.subscribe 'esHistory'
+      ]
   @route "tmplAPI",
     path: "/api"
     layoutTemplate: "analysisPageLayout"
