@@ -1,0 +1,3 @@
+[submodule "packages/recline-dashboard"]
+	path = packages/recline-dashboard
+	url = https://KrishnaPG@bitbucket.org/KrishnaPG/recline-dashboard.git
