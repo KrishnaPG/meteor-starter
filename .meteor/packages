@@ -39,9 +39,8 @@ accounts-google
 accounts-twitter
 nemo64:bootstrap
 accounts-ui
-
 jparker:gravatar
-
 recline-dashboard
-
 matb33:collection-hooks
+sacha:spin
+peppelg:bootstrap-3-modal
