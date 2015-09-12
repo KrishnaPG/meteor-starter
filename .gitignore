@@ -1,5 +1,5 @@
 .meteor/local
 .meteor/meteorite
+.meteor/.id
 /client/style/custom.bootstrap.mixins.import.less
 /client/style/custom.bootstrap.less
-/.meteor/.id
